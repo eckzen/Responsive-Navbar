@@ -42,8 +42,8 @@ header {
 .nav-toggle-label {
     position: absolute; /* to reposition */
     top: 0;
-    left: 0;
-    margin-left: 1em;
+    right: 0; /* i change to right */
+    margin-right: 1em;
     /* centers vertically */
     height: 100%;
     display: flex;
@@ -79,7 +79,7 @@ header {
 
 nav {
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 100%;
     left: 0;
     background: var(--background);
@@ -97,7 +97,7 @@ nav ul {
 
 nav li {
     margin-bottom: 1em;
-    margin-left: 1em;
+    /* margin-left: 1em; */
 }
 
 nav a {
@@ -107,6 +107,8 @@ nav a {
     text-transform: uppercase; /* capitalize */
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    /* border-bottom: 1px solid white; */
+
 }
 
 nav a:hover {
